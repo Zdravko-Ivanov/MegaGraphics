@@ -1,5 +1,7 @@
 ﻿namespace MegaGraphics.Web
 {
+    using System.Collections.Generic;
+    using System.Globalization;
     using System.Reflection;
 
     using MegaGraphics.Data;
@@ -15,11 +17,14 @@
 
     using Microsoft.AspNetCore.Builder;
     using Microsoft.AspNetCore.Http;
+    using Microsoft.AspNetCore.Localization;
     using Microsoft.AspNetCore.Mvc;
+    using Microsoft.AspNetCore.Mvc.Razor;
     using Microsoft.EntityFrameworkCore;
     using Microsoft.Extensions.Configuration;
     using Microsoft.Extensions.DependencyInjection;
     using Microsoft.Extensions.Hosting;
+    using Microsoft.Extensions.Options;
 
     public class Program
     {
@@ -56,6 +61,23 @@
             services.AddDatabaseDeveloperPageExceptionFilter();
 
             services.AddSingleton(configuration);
+
+            // Localizaiton
+            services.AddLocalization(options => { options.ResourcesPath = "Languages"; });
+            services.AddMvc().AddViewLocalization(LanguageViewLocationExpanderFormat.Suffix).AddDataAnnotationsLocalization();
+
+            services.Configure<RequestLocalizationOptions>(
+                options =>
+                {
+                    var supportedCultures = new List<CultureInfo>()
+                    {
+                        new CultureInfo("en"),
+                        new CultureInfo("bg"),
+                    };
+                    options.DefaultRequestCulture = new RequestCulture("bg");
+                    options.SupportedCultures = supportedCultures;
+                    options.SupportedUICultures = supportedCultures;
+                });
 
             // Data repositories
             services.AddScoped(typeof(IDeletableEntityRepository<>), typeof(EfDeletableEntityRepository<>));
@@ -95,6 +117,8 @@
             app.UseCookiePolicy();
 
             app.UseRouting();
+
+            app.UseRequestLocalization(app.Services.GetRequiredService<IOptions<RequestLocalizationOptions>>().Value);
 
             app.UseAuthentication();
             app.UseAuthorization();

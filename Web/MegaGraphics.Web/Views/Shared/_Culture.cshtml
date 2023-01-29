@@ -1,0 +1,7 @@
+﻿@{
+    var returnUrl = string.IsNullOrWhiteSpace(Context.Request.Path) ? "~/" : $"~{Context.Request.Path.Value}{Context.Request.QueryString}";
+}
+    <div>
+         <a asp-action="CultureManagment" asp-controller="Home" asp-route-culture="bg" asp-route-returnUrl="@returnUrl"><img src="~/images/bg.ico" width="30px"/></a>
+     <a asp-action="CultureManagment" asp-controller="Home" asp-route-culture="en" asp-route-returnUrl="@returnUrl"><img src="~/images/uk.ico" width="30px"/></a>
+    </div>
