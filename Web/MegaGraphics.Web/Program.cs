@@ -10,7 +10,6 @@
     using MegaGraphics.Data.Models;
     using MegaGraphics.Data.Repositories;
     using MegaGraphics.Data.Seeding;
-    using MegaGraphics.Services.Data;
     using MegaGraphics.Services.Mapping;
     using MegaGraphics.Services.Messaging;
     using MegaGraphics.Web.ViewModels;
@@ -86,7 +85,6 @@
 
             // Application services
             services.AddTransient<IEmailSender, NullMessageSender>();
-            services.AddTransient<ISettingsService, SettingsService>();
         }
 
         private static void Configure(WebApplication app)
