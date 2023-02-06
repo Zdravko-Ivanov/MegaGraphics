@@ -15,7 +15,27 @@
             return this.View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult About()
+        {
+            return this.View();
+        }
+
+        public IActionResult ShippingPolicy()
+        {
+            return this.View();
+        }
+
+        public IActionResult PrivacyPolicy()
+        {
+            return this.View();
+        }
+
+        public IActionResult CookiePolicy()
+        {
+            return this.View();
+        }
+
+        public IActionResult QuestionsAnswers()
         {
             return this.View();
         }

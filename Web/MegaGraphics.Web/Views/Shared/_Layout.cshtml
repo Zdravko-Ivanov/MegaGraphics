@@ -21,18 +21,19 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1"> 
+                    <ul class="navbar-nav justify-content-end flex-grow-1"> 
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">@localizer["Home"]</a>
                         </li>
                          <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">@localizer["AboutUs"]</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Settings" asp-action="Index">Settings</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="About">@localizer["About"]</a>
                         </li>
                     </ul>
                     <partial name="_LoginPartial" />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span> <img src="~/images/phone.png" width="25px" /><b>@localizer["Phone"]:</b> <a href="tel:0887 765 785">0887 765 785</a><br />
+                    <img src="~/images/email.png" width="25px"/><b>@localizer["Email"]:</b> <a href="mailto:office@megagraphics.eu">office@megagraphics.eu</a></span>
+              
                 </div>
             </div>
         </nav>
@@ -45,11 +46,7 @@
         </main>
     </div>
     
-    <footer class="border-top footer text-muted">
-        <div class="container" >
-            &copy; @DateTime.Now.Year - @GlobalConstants.SystemName - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>
+       <partial name ="_Footer" />
 
     <script src="~/lib/jquery/dist/jquery.min.js" asp-append-version="true"></script>
     <script src="~/lib/jquery-validation/dist/jquery.validate.min.js" asp-append-version="true"></script>
