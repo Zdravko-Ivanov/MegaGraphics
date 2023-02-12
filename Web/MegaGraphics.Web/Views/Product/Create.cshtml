@@ -1,25 +1,60 @@
 ﻿@model MegaGraphics.Web.ViewModels.Home.CreateProductInputModel
 
-<h1> Create product</h1>
+<form method="post">
 
-    <form method="post">
-        <label>Name</label>
-        <input asp-for="Name" /><br />
-        <label>Category</label>
+    <div class="row">
 
-    <label for="cars">Choose a car:</label>
+        <div class="col-md-6">
+            <h1>Napravi</h1>
+            <label>Име</label>
+            <input asp-for="Name" /><br />
 
-    
-        <label>Tags:</label>
-        <input asp-asp-for="Tags" /><br />
-        <label>Size</label><br />
-        M  :<input type="checkbox" id="2" value="M" />             <label>Price</label> <input asp-for="PriceMedium" /><br />
-        L  :<input type="checkbox" id="3" value="L" />            <label>PriceMedium</label> <input asp-for="PriceLarge" /> <br />
-        S  :<input type="checkbox" id="1" value="S" />       <label>PriceLarge</label> <input asp-for="Price" />      <br />
-        <label>Colors</label> with ticks
-        <h2>Main pic</h2>
-        <h3>pics</h3>
-        <textarea>Description</textarea>
-    </form>
+            Описание <br />
+            <textarea asp-for="Description"></textarea> <br />     
+        </div>
 
-    
+        <div class="col-md-6">
+            <h1>Create product</h1>
+            <label>Name</label>
+            <input asp-for="NameEnglish" /><br />
+
+            Description <br />
+            <textarea asp-for="DescriptionEnglish"></textarea> <br />
+        </div>
+
+        <div class="col-md-4">
+            <div class="justify-content-center">
+                <h2 class="justify-content-center">Категория на продукта</h2>
+
+
+                TODO: Categoies with JS; <br />
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="justify-content-center">
+                <h2 class="justify-content-center">Етикет на продукта</h2>
+
+
+                TODO: Tags with JS; <br />
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="justify-content-center">
+                <h2 class="justify-content-center">razmer/cena/razmer/</h2>
+
+
+                Dimensions: <br />
+                Price: <br />
+            </div>
+        </div>
+
+        <div class="col-md-12">
+            <div class="justify-content-center">
+                Images <br />
+            </div>
+        </div>
+    </div>
+</form>
+

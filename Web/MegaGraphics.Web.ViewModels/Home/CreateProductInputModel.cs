@@ -1,22 +1,17 @@
-﻿using MegaGraphics.Data.Models;
-using System.Collections.Generic;
-
-namespace MegaGraphics.Web.ViewModels.Home
+﻿namespace MegaGraphics.Web.ViewModels.Home
 {
     public class CreateProductInputModel
     {
         public string Name { get; set; }
 
+        public string NameEnglish { get; set; }
+
         public string Description { get; set; }
 
-        public decimal Price { get; set; }
+        public string DescriptionEnglish { get; set; }
 
-        public decimal? PriceMedium { get; set; }
+        public int Category { get; set; }
 
-        public decimal? PriceLarge { get; set; }
-
-        public int CategoryId { get; set; }
-
-        public IEnumerable<Category> Categorys { get; set; }
+        public int CategoryEngnlish { get; set; }
     }
 }

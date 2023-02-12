@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace MegaGraphics.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230212145012_InitialCreate")]
+    [Migration("20230212164208_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -23,6 +23,21 @@ namespace MegaGraphics.Data.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
+
+            modelBuilder.Entity("CategoryProduct", b =>
+                {
+                    b.Property<int>("CategorysId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ProductsId")
+                        .HasColumnType("int");
+
+                    b.HasKey("CategorysId", "ProductsId");
+
+                    b.HasIndex("ProductsId");
+
+                    b.ToTable("CategoryProduct");
+                });
 
             modelBuilder.Entity("MegaGraphics.Data.Models.ApplicationRole", b =>
                 {
@@ -167,6 +182,9 @@ namespace MegaGraphics.Data.Migrations
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("NameEnglish")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int?>("ParentCategoryId")
                         .HasColumnType("int");
 
@@ -222,9 +240,6 @@ namespace MegaGraphics.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<int>("CategoryId")
-                        .HasColumnType("int");
-
                     b.Property<DateTime>("CreatedOn")
                         .HasColumnType("datetime2");
 
@@ -232,6 +247,9 @@ namespace MegaGraphics.Data.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("DescriptionEnglish")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsDeleted")
@@ -243,9 +261,10 @@ namespace MegaGraphics.Data.Migrations
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("Id");
+                    b.Property<string>("NameEnglish")
+                        .HasColumnType("nvarchar(max)");
 
-                    b.HasIndex("CategoryId");
+                    b.HasKey("Id");
 
                     b.HasIndex("IsDeleted");
 
@@ -254,7 +273,7 @@ namespace MegaGraphics.Data.Migrations
 
             modelBuilder.Entity("MegaGraphics.Data.Models.ProductVariant", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<int>("Size")
                         .HasColumnType("int");
 
                     b.Property<int>("ProductId")
@@ -263,10 +282,13 @@ namespace MegaGraphics.Data.Migrations
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<int>("Size")
+                    b.Property<int>("SizeHeight")
                         .HasColumnType("int");
 
-                    b.HasKey("Id", "ProductId");
+                    b.Property<int>("SizeWidth")
+                        .HasColumnType("int");
+
+                    b.HasKey("Size", "ProductId");
 
                     b.HasIndex("ProductId");
 
@@ -424,6 +446,21 @@ namespace MegaGraphics.Data.Migrations
                     b.ToTable("ProductTag");
                 });
 
+            modelBuilder.Entity("CategoryProduct", b =>
+                {
+                    b.HasOne("MegaGraphics.Data.Models.Category", null)
+                        .WithMany()
+                        .HasForeignKey("CategorysId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("MegaGraphics.Data.Models.Product", null)
+                        .WithMany()
+                        .HasForeignKey("ProductsId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("MegaGraphics.Data.Models.Category", b =>
                 {
                     b.HasOne("MegaGraphics.Data.Models.Category", "ParentCategory")
@@ -442,17 +479,6 @@ namespace MegaGraphics.Data.Migrations
                         .IsRequired();
 
                     b.Navigation("Product");
-                });
-
-            modelBuilder.Entity("MegaGraphics.Data.Models.Product", b =>
-                {
-                    b.HasOne("MegaGraphics.Data.Models.Category", "Category")
-                        .WithMany("Products")
-                        .HasForeignKey("CategoryId")
-                        .OnDelete(DeleteBehavior.Restrict)
-                        .IsRequired();
-
-                    b.Navigation("Category");
                 });
 
             modelBuilder.Entity("MegaGraphics.Data.Models.ProductVariant", b =>
@@ -544,8 +570,6 @@ namespace MegaGraphics.Data.Migrations
             modelBuilder.Entity("MegaGraphics.Data.Models.Category", b =>
                 {
                     b.Navigation("Childrens");
-
-                    b.Navigation("Products");
                 });
 
             modelBuilder.Entity("MegaGraphics.Data.Models.Product", b =>

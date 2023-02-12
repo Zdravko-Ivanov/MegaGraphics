@@ -45,7 +45,14 @@
     <div class="container">
         <partial name="_CookieConsentPartial" />
         <main role="main" class="pb-3">
-            @this.RenderBody()
+            <div class="row">
+                <div class="col-md-2">      
+                    <partial name="_SideBar" />
+                </div>
+                <div class="col-md-10">
+                    @this.RenderBody()
+                </div>
+            </div>
         </main>
     </div>
     
