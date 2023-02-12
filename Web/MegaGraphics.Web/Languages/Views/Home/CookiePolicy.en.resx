@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Context" xml:space="preserve">
+    <value>&lt;h2&gt;Cookie Policy&lt;/h2&gt;
+
+
+
+&lt;p&gt;In order for this site to work properly, we sometimes place small data files called cookies on your device.&lt;/p&gt;
+
+
+
+&lt;h2&gt;What are cookies?&lt;/h2&gt;
+
+
+
+&lt;p&gt;Cookies are small text files that are saved on your computer or mobile device when you visit a website. They allow the website to remember your actions and preferences (such as username, language, font size and other display settings) for a period of time so that you do not have to enter them each time you visit the site or switch from one page to another.&lt;/p&gt;
+
+
+
+&lt;h2&gt;How do we use cookies?&lt;/h2&gt;
+
+
+
+&lt;p&gt;Some of our pages use cookies that are not absolutely necessary for the website to work, but make it more user-friendly. You can delete or block cookies, but if you do so, some features of the site may not work as they should. Cookies are used to store:&lt;/p&gt;
+
+
+
+&lt;ul&gt;&lt;li&gt;your display settings, such as navigation language, contrast, font size, device used, search results and notification preferences;&lt;/li&gt;&lt;li&gt;your last visit to the website (for statistical purposes) and the last three pages you have visited (to facilitate our help desk in case you send a request);&lt;/li&gt;&lt;li&gt;information whether or not you have accepted the use of cookies on this site.&lt;/li&gt; &lt;/ul&gt;
+
+
+
+&lt;p&gt;In addition, some of the videos embedded on our pages also use cookies to anonymously collect statistics about how you got to the page and which videos you watched.&lt;/p&gt;
+
+
+
+&lt;h2&gt;Personal data&lt;/h2&gt;
+
+
+
+&lt;p&gt;Cookie-related information &lt;strong&gt;is not used to identify you &lt;/strong&gt; and the data patterns are entirely under our control. Cookies are not used for purposes other than those specified here.&lt;/p&gt;
+
+
+
+&lt;h2&gt;Third Party Cookies&lt;/h2&gt;
+
+
+
+&lt;p&gt;We do not allow third party services on our site to send cookies to users.&lt;/p&gt;
+
+
+
+&lt;h2&gt;How to control cookies&lt;/h2&gt;
+
+
+
+&lt;p&gt;You can &lt;strong&gt;control and/or delete&lt;/strong&gt; cookies as you wish. You can delete any cookies already stored on your device, and you can also set most browsers to block them. However, if you do this, you may need to manually adjust some parameters each time you visit the site, and some services and features may not work.&lt;/p&gt;
+
+
+
+&lt;h2&gt;Rejection of the use of cookies&lt;/h2&gt;
+
+
+
+&lt;p&gt;You can easily accept or decline the use of cookies on this site by clicking one of the following links:&lt;/p&gt;
+
+
+
+&lt;ul&gt;&lt;li&gt;Accept All&lt;/li&gt;&lt;li&gt;Functional Only&lt;/li&gt;&lt;li&gt;View Settings (*) &lt;/li&gt;&lt;/ul&gt;
+
+
+
+&lt;p&gt;&lt;em&gt;(*) You can only refuse the use of cookies that are not absolutely necessary. Some cookies are absolutely necessary to be able to use this site. Without them, we won't be able to provide you with certain features, such as automatically signing in to the EU Law and Publications site.&lt;/em&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Cookie policy</value>
+  </data>
+</root>

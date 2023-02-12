@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Context" xml:space="preserve">
+    <value>&lt;h2&gt;Кои сме ние&lt;/h2&gt;
+
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+&lt;h4&gt; &lt;strong&gt;„Мега Графикс“ ЕООД&lt;/strong&gt; е търговско дружество, регистрирано в Търговския регистър към Агенцията по вписванията:&lt;/h4&gt;
+
+
+
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Име:&amp;nbsp;МЕГА ГРАФИКС ЕООД&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;
+
+
+
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;ЕИК/БУЛСТАТ:&lt;/strong&gt;&amp;nbsp;204609851&lt;/li&gt;&lt;/ul&gt;
+
+
+
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Седалище и адрес на управление:&lt;/strong&gt;&amp;nbsp;гр. Павликени,&amp;nbsp;ул. Климент Охридски 13а&lt;/li&gt;&lt;/ul&gt;
+
+
+
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Адрес за кореспонденция:&lt;/strong&gt; гр. Павликени, ул. Климент Охридски 13а&lt;/li&gt;&lt;/ul&gt;
+
+
+
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Телефон:&amp;nbsp;&lt;/strong&gt; &lt;a href="tel:0887 765 785"&gt;0887 765 785&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+
+
+
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;E-mail:&lt;/strong&gt;&amp;nbsp;&lt;a href="mailto:office@megagraphics.eu"&gt;office@megagraphics.eu&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+
+
+
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Уебсайт:&lt;/strong&gt;&amp;nbsp;&lt;a href=""&gt;www.megagraphics.eu&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+
+
+
+&lt;p&gt; &lt;strong&gt;„Мега Графикс“ ЕООД &lt;/strong&gt;&amp;nbsp;осъществява дейността си в съответствие със Закона за защита на личните данни и Регламент (ЕС) 2016/679 на Европейския Съюз от 27 април 2016 година относно защитата на физическите лица във връзка с обработването на лични данни и относно свободното движение на такива данни. Настоящата информация има цел да ви информира за всички аспекти на обработката личните ви данни и правата, които имате във връзка с тази обработка.&lt;/p&gt;
+
+
+
+&lt;h2&gt;Видове данни, които обработваме&lt;/h2&gt;
+
+
+
+&lt;h4&gt;&lt;br&gt;„Мега Графикс“ ЕООД обработва следните видове лични данни:&lt;/h4&gt;
+
+
+
+&lt;ul&gt;&lt;li&gt;две имена,&lt;/li&gt;&lt;li&gt;телефонен номер,&lt;/li&gt;&lt;li&gt;адрес за доставка на пратка, в случаите, когато изпращаме такава;&lt;/li&gt;&lt;li&gt;електронна поща;&lt;/li&gt;&lt;li&gt;местожителство /град/село/;&lt;/li&gt;&lt;li&gt;година на раждане;&lt;/li&gt;&lt;li&gt;ЕГН, когато Ви издаваме фактура;&lt;/li&gt;&lt;li&gt;банкова сметка, в случаите, когато извършваме транзакции по банков път&lt;/li&gt;&lt;/ul&gt;
+
+
+
+&lt;h2&gt;Поверителност на данните&lt;/h2&gt;
+
+
+
+&lt;p&gt;Личните данни, които онлайн магазин “Мега Графикс” получава при регистрацията, ще бъдат използвани единствено за обслужване на потребителите – приемане и изпълнение на поръчки и връзка с потребителите в случай на възникнали проблеми, свързани с поръчката. онлайн магазин “Мега Графикс” гарантира, че въпросните данни няма да бъдат предоставяни под никаква форма на трети лица или използвани за цели, различни от долуописаните.&lt;/p&gt;
+
+
+
+&lt;h2&gt;ЦЕЛИ НА ОБРАБОТКАТА&lt;/h2&gt;
+
+
+
+&lt;h4&gt;&lt;br&gt;С цел сключване или изпълнение на договор за доставка на стоки, предлагани от „Мега Графикс“ ЕООД&lt;/h4&gt;
+
+
+
+&lt;ul&gt;&lt;li&gt;Идентифициране на клиент при поръчка;&lt;/li&gt;&lt;li&gt;Идентифициране на получателя на пратката/на стоката;&lt;/li&gt;&lt;li&gt;Доставка на поръчка;&lt;/li&gt;&lt;li&gt;Актуализиране на Вашите лични данни;&lt;/li&gt;&lt;li&gt;Обслужване и отговор на клиентски оплаквания/запитвания/заявления по чл. 15-22 от&lt;br&gt;Регламент 2016/679/жалби;&lt;/li&gt;&lt;li&gt;Плащане на суми по приети поръчки;&lt;/li&gt;&lt;li&gt;Извършване на обработка от обработващи данните – възлагане, отчитане, приемане,&lt;br&gt;разплащане.&lt;/li&gt;&lt;/ul&gt;
+
+
+
+&lt;h4&gt;В изпълнение на свои законови задължения „Мега Графикс“ ЕООД обработва данните Ви за следните цели:&lt;/h4&gt;
+
+
+
+&lt;ul&gt;&lt;li&gt;Издаване на фактури, изготвяне на детайлизирана справка, когато това е предвидено в&lt;br&gt;индивидуалния договор на клиента;&lt;/li&gt;&lt;li&gt;За извършване финансово-счетоводна обработка на договора с клиента и за данъчно –&lt;br&gt;осигурителен контрол от съответните компетентни органи.&lt;/li&gt;&lt;/ul&gt;
+
+
+
+&lt;h4&gt;За целите на легитимните интереси на „Мега Графикс“ ЕООД, а именно:&lt;/h4&gt;
+
+
+
+&lt;ul&gt;&lt;li&gt;проследяване на изпълнението на всяка доставка;&lt;/li&gt;&lt;li&gt;обезпечаване на всички въпроси, свързани с рекламации;&lt;/li&gt;&lt;/ul&gt;
+
+
+
+&lt;h4&gt;За маркетингови цели&lt;/h4&gt;
+
+
+
+&lt;ul&gt;&lt;li&gt;анализ на потребителското търсене и поведение;&lt;/li&gt;&lt;li&gt;изпращане на съобщения за промоции, оферти, анкети, рекламни игри;&lt;/li&gt;&lt;li&gt;изпращане на рекламни и/или информационни съобщения.&lt;/li&gt;&lt;/ul&gt;
+
+
+
+&lt;h2&gt;Метод на събиране на данните&lt;/h2&gt;
+
+
+
+&lt;p class="has-text-align-left"&gt;„Мега Графикс“ ЕООД обработва само данни, които са предоставени от нашите клиенти доброволно и потребители. Това означава, че всеки клиенти носи отговорност да не предоставя данни на трети лица в нарушение на техните права за защита на личните данни, тъй като „Мега Графикс“ ЕООД няма достъп до тези лица и няма практическа възможност да контролира дали клиентите ни предоставят данни на трети лица с тяхно знание и съгласие, дадено съгласно законовите изисквания.&lt;br&gt;Ето защо, всеки субект на данни носи пълна лична отговорност, ако ни предостави данни на трето лице без негово знание или без да получи съгласието му при изпълнение на изискванията на приложимото законодателство за защита на личните данни, включително по отношение на имената, телефоните и адресите на получателите на пратките, предоставени ни от клиент. Всеки субект на данни носи пълна лична отговорност, ако ни предостави умишлено неверни данни, в т.ч. година на раждане.&lt;/p&gt;
+
+
+
+&lt;h2&gt;Срок на съхранение на данните&lt;/h2&gt;
+
+
+
+&lt;ul&gt;&lt;li&gt;„Мега Графикс“ съхранява Вашите лични данни за срок не по-дълъг от съществуването на профила Ви в онлайн магазин. След заличаване на профила ви, същият полага необходимите грижи да изтрие и унищожи всички Ваши данни, без ненужно забавяне или да ги анонимизира (т.е. да ги приведе във вид, който не разкрива вашата личност).&lt;/li&gt;&lt;li&gt;„Мега Графикс“ обработва Вашите лични данни, които сте предоставили при извършване на поръчка без регистрация в електронния магазин, до приключване на поръчката, освен ако сте дали своето изрично съгласие при извършване на поръчката данните Ви да се обработват за целите на подобряване на услугата, предоставяне на препоръчано съдържание за Вас, индивидуални условия, промоции, както и за статистически цели.&lt;/li&gt;&lt;li&gt;„Мега Графикс“ съхранява Вашите лични данни, предоставени във връзка с направени онлайн поръчки за срок от 5 години за целите на защита на правните интереси при съдебни или административни спорове с потребители на онлайн магазина.&lt;/li&gt;&lt;li&gt;„Мега Графикс“ Ви уведомява, в случай, че срокът за съхранение на данните е необходим да бъде удължен с оглед изпълнение на нормативно задължение или с оглед легитимни интереси на онлайн магазинът или друго.&lt;/li&gt;&lt;li&gt;„Мега Графикс“ съхранява личните данни, които е необходимо да пази по силата на приложимото законодателство за съответния предвиден срок, който може да надхвърля срока на съществуване на Вашия профил в електронния магазин или до приключване на поръчката.&lt;/li&gt;&lt;li&gt;„Мега Графикс“ съхранява личните данни на законните представители на търговските си партньори за срока на изпълнение на договора, за спазване на легитимните интереси и законови задължения на „Мега Графикс“, като този срок може да надхвърля срока на сключения договор.&lt;/li&gt;&lt;/ul&gt;
+
+
+
+&lt;h2&gt;Вашите права&lt;/h2&gt;
+
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+&lt;h4&gt;Право на достъп:&lt;/h4&gt;
+
+
+
+&lt;p&gt;По всяко време имате право да поискате информация относно личните Ви данни, които съхраняваме, основанието,  целите, сроковете за обработка и съхранение, предоставени ли са на обработващ лични данни, унищожени ли са и т.н.&lt;/p&gt;
+
+
+
+&lt;h4&gt;Право на коригиране:&lt;/h4&gt;
+
+
+
+&lt;p&gt;Имате право да поискате коригиране на Вашите лични данни, ако те са неправилни, включително допълване на непълни лични данни.&lt;/p&gt;
+
+
+
+&lt;h4&gt;Право на изтриване /право „да бъдеш забравен“/:&lt;/h4&gt;
+
+
+
+&lt;p&gt;Имате право да изтриете всички лични данни, обработвани от „Мега Графикс“ ЕООД по всяко време, освен когато обработването е необходимо за поне една от следните цели, а именно:&lt;/p&gt;
+
+
+
+&lt;ul&gt;&lt;li&gt;за упражняване на правото на свобода на изразяването и правото на информация;&lt;/li&gt;&lt;li&gt;за спазване на правно задължение, което изисква обработване, предвидено в правото на Съюза или правото на Р. България;&lt;/li&gt;&lt;li&gt;за целите на архивирането в обществен интерес, за научни или исторически изследвания или за статистически цели съгласно член 89, параграф 1 от Регламент 2016/679, доколкото съществува вероятност правото на изтриване да направи невъзможно или сериозно да затрудни постигането на целите на това обработване&lt;/li&gt;&lt;li&gt;за установяването, упражняването или защитата на правни претенции.&lt;/li&gt;&lt;/ul&gt;
+
+
+
+&lt;h4&gt;Право на ограничение:&lt;/h4&gt;
+
+
+
+&lt;p&gt;Имате право да поискате „Мега Графикс“ ЕООД да ограничи обработването на Вашите лични данни при следните обстоятелства:&lt;/p&gt;
+
+
+
+&lt;ul&gt;&lt;li&gt;точността на личните данни се оспорва от субекта на данните, за срок, който позволява на администратора да провери точността на личните данни;&lt;/li&gt;&lt;li&gt;обработването е неправомерно, но субектът на данните не желае личните данни да бъдат изтрити, а изисква вместо това ограничаване на използването им;&lt;/li&gt;&lt;li&gt;администраторът не се нуждае повече от личните данни за целите на обработването, но субектът на данните ги изисква за установяването, упражняването или защитата на правни претенции;&lt;/li&gt;&lt;li&gt;субектът на данните е възразил срещу обработването съгласно чл. 21, параграф 1 от Регламент 2016/679, в очакване на проверка дали законните основания на администратора имат преимущество пред интересите на субекта на данните.&lt;/li&gt;&lt;/ul&gt;
+
+
+
+&lt;h4&gt;Право на преносимост:&lt;/h4&gt;
+
+
+
+&lt;p&gt;Когато „Мега Графикс“ ЕООД обработва Вашите лични данни по автоматизиран начин на основание Вашето съгласие или на основание договор, имате право да получите копие от Вашите данни в структуриран, широко  използван и пригоден за машинно четене формат, прехвърлени на Вас или на друга страна. Това включва само личните данни, които сте ни предоставили.&lt;/p&gt;
+
+
+
+&lt;h4&gt;Право да възразите срещу обработването въз основа на легитимен интерес:&lt;/h4&gt;
+
+
+
+&lt;p&gt;Имате право да възразите срещу обработването на Вашите лични данни въз основа на легитимния интерес  на „Мега Графикс“ ЕООД. Ние няма да продължим да обработваме личните Ви данни, освен ако не се докаже, че  съществуват убедителни правни основания за това, които имат предимство пред интересите и правата Ви или поради съдебни искове.&lt;/p&gt;
+
+
+
+&lt;h2&gt;Оттегляне на съгласие&lt;/h2&gt;
+
+
+
+&lt;p&gt;По всяко време имате право да оттеглите съгласието си за обработка на Вашите лични данни само за тези цели и  този вид лични данни, необходими за постигането на конкретните цели, които обработваме на основание чл. 6,   параграф 1, б. „а“ от GDPR, както и в &lt;a href="/Home/CookiePolicy"&gt;Политиката за  бисквитки.&lt;/a&gt;&lt;br&gt;В случай, че желаете да оттеглите дадено от Вас съгласие за обработка, то можете да подадете писмено такова на  посочения по-горе мейл или да последвате активната връзка или виж &lt;a href="/Home/CookiePolicy"&gt;Политиката за  бисквитки.&lt;/a&gt;&lt;/p&gt;
+
+
+
+&lt;h2&gt;Сигнал за нередности и жалби&lt;/h2&gt;
+
+
+
+&lt;p&gt;Ако смятате, че сме нарушили правата ви във връзка с личните ви данни, както и че е налице риск от нарушение сигурността на Вашите лични данни, можете да подадете сигнал на следните контакти:&lt;br&gt;телефон: &lt;a href="tel:0887 765 785"&gt;0887 765 785&lt;/a&gt;&lt;br&gt;е-mail: &lt;a href="mailto:office@megagraphics.eu"&gt;office@megagraphics.eu&lt;/a&gt;&lt;br&gt;Упражняването на горните права не Ви лишава от правото на жалба. Можете да подадете такава до надзорния орган на България – Комисията за защита на личните данни. Повече информация можете да намерите на адрес:  &lt;a rel="noopener" href="http://cpdp.bg" target="_blank"&gt;www.cpdp.bg.&lt;/a&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Политика за поверителност</value>
+  </data>
+</root>

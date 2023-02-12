@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Context" xml:space="preserve">
+    <value>&lt;h2&gt;Who are we&lt;/h2&gt;
+
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+&lt;h4&gt; &lt;strong&gt;„Mega Graphics“ Ltd.&lt;/strong&gt; is a commercial company registered in the Commercial Register at the Registration Agency as:&lt;/h4&gt;
+
+
+
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Company/name:&amp;nbsp;MEGA GRAPHICS Ltd.&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;
+
+
+
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;UIC/PIC:&lt;/strong&gt;&amp;nbsp;204609851&lt;/li&gt;&lt;/ul&gt;
+
+
+
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Head office and registered office:&lt;/strong&gt;&amp;nbsp;13a Kliment Ohridski street, Pavlikeni city&lt;/li&gt;&lt;/ul&gt;
+
+
+
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Phone:&amp;nbsp;&lt;/strong&gt; &lt;a href="tel:0887 765 785"&gt;0887 765 785&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+
+
+
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;E-mail:&lt;/strong&gt;&amp;nbsp;&lt;a href="mailto:office@megagraphics.eu"&gt;office@megagraphics.eu&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+
+
+
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Web site:&lt;/strong&gt;&amp;nbsp;&lt;a href=""&gt;www.megagraphics.eu&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+
+
+
+&lt;p&gt; &lt;strong&gt;„Mega Graphics“ Ltd. &lt;/strong&gt;&amp;nbsp;carries out its activities in accordance with the Personal Data Protection Act and Regulation (EU) 2016/679 of the European Union of April 27, 2016 on the protection of natural persons in connection with the processing of personal data and on the free movement of such data. This information is intended to inform you about all aspects of the processing of your personal data and the rights you have in relation to this processing.&lt;/p&gt;
+
+
+
+&lt;h2&gt;Types of data we process&lt;/h2&gt;
+
+
+
+&lt;h4&gt;&lt;br&gt;„Mega Graphics“ Ltd. processes the following types of personal data:&lt;/h4&gt;
+
+
+
+&lt;ul&gt;&lt;li&gt;two names;&lt;/li&gt;&lt;li&gt;phone number;&lt;/li&gt;&lt;li&gt;delivery address in case there is one;&lt;/li&gt;&lt;li&gt;e-mail address;&lt;/li&gt;&lt;li&gt;residence /city/village/;&lt;/li&gt;&lt;li&gt;year of birth;&lt;/li&gt;&lt;li&gt;personal identification number, is case of invoice;&lt;/li&gt;&lt;li&gt;bank account in case of a bank payment;&lt;/li&gt;&lt;/ul&gt;
+
+
+
+&lt;h2&gt;Data Privacy&lt;/h2&gt;
+
+
+
+&lt;p&gt;The personal data that the "Mega Graphics" online store receives during registration will be used only for customer service - acceptance and fulfillment of orders and contact with users in case of problems related to the order. "Mega Graphics" online store guarantees that the data in question will not be provided in any form to third parties or used for purposes other than those described below.&lt;/p&gt;
+
+
+
+&lt;h2&gt;PURPOSES OF PROCESSING&lt;/h2&gt;
+
+
+
+&lt;h4&gt;&lt;br&gt;For the purpose of concluding or executing a contract for the supply of goods offered by "Mega Graphics" EOOD&lt;/h4&gt;
+
+
+
+&lt;ul&gt;&lt;li&gt;Identifying the customer when ordering;&lt;/li&gt;&lt;li&gt;Identifying the recipient of the shipment/goods;&lt;/li&gt;&lt;li&gt;Delivery of the order;&lt;/li&gt;&lt;li&gt;Updating your personal data;&lt;/li&gt;&lt;li&gt;Service and response to customer complaints/inquiries/applications under Art. 15-22 of&lt;br&gt;Regulation 2016/679/appeals;&lt;/li&gt;&lt;li&gt;Payment of sums under accepted orders;&lt;/li&gt;&lt;li&gt;Performance of processing by data processors - assignment, reporting, acceptance,&lt;br &gt;payment.&lt;/li&gt;&lt;/ul&gt;
+
+
+
+&lt;h4&gt;In fulfillment of its legal obligations, "Mega Graphics" EOOD processes your data for the following purposes:&lt;/h4&gt;
+
+
+
+&lt;ul&gt;&lt;li&gt;Issuing invoices, preparing a detailed report when this is provided for in the&lt;br&gt;customer's individual contract;&lt;/li&gt;&lt;li&gt;To carry out financial and accounting processing of the contract with the client and for tax -&lt; br&gt;insurance control by the relevant competent authorities.&lt;/li&gt;&lt;/ul&gt;
+
+
+
+&lt;h4&gt;For the purposes of the legitimate interests of "Mega Graphics" EOOD, namely:&lt;/h4&gt;
+
+
+
+&lt;ul&gt;&lt;li&gt;track the performance of each delivery;&lt;/li&gt;&lt;li&gt;secure all claims issues;&lt;/li&gt;&lt;/ul&gt;
+
+
+
+&lt;h4&gt;For marketing purposes&lt;/h4&gt;
+
+
+
+&lt;ul&gt;&lt;li&gt;analysis of user search and behavior;&lt;/li&gt;&lt;li&gt;sending messages for promotions, offers, surveys, advertising games;&lt;/li&gt;&lt;li&gt;sending advertising and/or informational messages.&lt; /li&gt;&lt;/ul&gt;
+
+
+
+&lt;h2&gt;Method of data collection&lt;/h2&gt;
+
+
+
+&lt;p class="has-text-align-left"&gt;"Mega Graphics" EOOD processes only data that is provided by our customers voluntarily and users. This means that each customer is responsible not to provide data to third parties in violation of their rights to the protection of personal data, as "Mega Graphics" EOOD does not have access to these persons and has no practical possibility to control whether our customers provide data to third parties with their knowledge and consent given as required by law.&lt;br&gt;Therefore, each data subject bears full personal responsibility if they provide us with data to a third party without their knowledge or without obtaining their consent in compliance with the requirements of the applicable legislation for the protection of personal data, including in relation to the names, telephone numbers and addresses of recipients of shipments provided to us by a customer. Each data subject bears full personal responsibility if they intentionally provide us with false data, incl. year of birth.&lt;/p&gt;
+
+
+
+&lt;h2&gt;Term of data storage&lt;/h2&gt;
+
+
+
+&lt;ul&gt;&lt;li&gt;"Mega Graphics" stores your personal data for a period no longer than the existence of your profile in an online store. After deleting your account, the same takes the necessary care to delete and destroy all your data without unnecessary delay or to anonymize it (i.e. reduce it to a form that does not reveal your identity).&lt;/li&gt;&lt;li&gt; "Mega Graphics" processes your personal data, which you provided when placing an order without registration in the electronic store, until the order is completed, unless you gave your express consent when placing the order for your data to be processed for the purposes of improving the service, provision of recommended content for you, individual conditions, promotions, as well as for statistical purposes.&lt;/li&gt;&lt;li&gt;"Mega Graphics" stores your personal data provided in connection with online orders for a period of 5 years for protection purposes of legal interests in legal or administrative disputes with users of the online store.&lt;/li&gt;&lt;li&gt;"Mega Graphics" notifies you in the event that the data storage period needs to be extended in order to fulfill but legal obligation or in view of the legitimate interests of the online store or otherwise.&lt;/li&gt;&lt;li&gt;"Mega Graphics" stores the personal data that it is required to keep under the applicable legislation for the relevant stipulated period, which may exceed the period of existence on your profile in the electronic store or until the order is completed.&lt;/li&gt;&lt;li&gt;"Mega Graphics" stores the personal data of the legal representatives of its trading partners for the duration of the contract, to comply with the legitimate interests and legal obligations of " Mega Graphics", and this term may exceed the term of the concluded contract.&lt;/li&gt;&lt;/ul&gt;
+
+
+
+&lt;h2&gt;Your rights&lt;/h2&gt;
+
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+&lt;h4&gt;Right of access:&lt;/h4&gt;
+
+
+
+&lt;p&gt;At any time, you have the right to request information about your personal data that we store, the basis, the purposes, the terms of processing and storage, whether they have been provided to a personal data processor, whether they have been destroyed, etc.&lt;/p&gt;
+
+
+
+&lt;h4&gt;Right of correction:&lt;/h4&gt;
+
+
+
+&lt;p&gt;You have the right to request correction of your personal data if it is incorrect, including completion of incomplete personal data.&lt;/p&gt;
+
+
+
+&lt;h4&gt;Right to erasure /right to be forgotten/:&lt;/h4&gt;
+
+
+
+&lt;p&gt;You have the right to delete all personal data processed by "Mega Graphics" EOOD at any time, except when the processing is necessary for at least one of the following purposes, namely:&lt;/p&gt;
+
+
+
+&lt;ul&gt;&lt;li&gt;to exercise the right to freedom of expression and the right to information;&lt;/li&gt;&lt;li&gt;to comply with a legal obligation that requires processing provided for in the law of the Union or the law of the Republic of Bulgaria;&lt;/li&gt;&lt;li&gt; li&gt;&lt;li&gt;for archiving purposes in the public interest, for scientific or historical research or for statistical purposes pursuant to Article 89(1) of Regulation 2016/679, insofar as the right to erasure is likely to make it impossible or seriously hinder the achievement of the objectives of this processing&lt;/li&gt;&lt;li&gt;for the establishment, exercise or defense of legal claims.&lt;/li&gt;&lt;/ul&gt;
+
+
+
+&lt;h4&gt;Right of limitation:&lt;/h4&gt;
+
+
+
+&lt;p&gt;You have the right to request that Mega Graphics EOOD limit the processing of your personal data under the following circumstances:&lt;/p&gt;
+
+
+
+&lt;ul&gt;&lt;li&gt;the accuracy of the personal data is disputed by the data subject, for a period that allows the administrator to verify the accuracy of the personal data;&lt;/li&gt;&lt;li&gt;the processing is unlawful, but the data subject does not want the personal data to be deleted, but requires instead the restriction of their use;&lt;/li&gt;&lt;li&gt;the administrator no longer needs the personal data for the purposes of the processing, but the data subject requires them for the establishment, exercise or defense of legal claims;&lt;/li&gt;&lt;li&gt;the data subject has objected to the processing according to Art. 21, paragraph 1 of Regulation 2016/679, pending verification of whether the legitimate grounds of the controller prevail over the interests of the data subject.&lt;/li&gt;&lt;/ul&gt;
+
+
+
+&lt;h4&gt;Right of portability:&lt;/h4&gt;
+
+
+
+&lt;p&gt;When Mega Graphics EOOD processes your personal data in an automated manner on the basis of your consent or on the basis of a contract, you have the right to receive a copy of your data in a structured, widely used and machine-readable format transferred to you or to other side. This includes only the personal data you have provided to us.&lt;/p&gt;
+
+
+
+&lt;h4&gt;Right to object to processing based on legitimate interest:&lt;/h4&gt;
+
+
+
+&lt;p&gt;You have the right to object to the processing of your personal data based on the legitimate interest of Mega Graphics Ltd. We will not continue to process your personal data unless it is demonstrated that there are compelling legal grounds for doing so that override your interests and rights or due to legal claims.&lt;/p&gt;
+
+
+
+&lt;h2&gt;Withdraw consent&lt;/h2&gt;
+
+
+
+&lt;p&gt;At any time, you have the right to withdraw your consent to the processing of your personal data only for these purposes and this type of personal data necessary to achieve the specific purposes that we process on the basis of Art. 6, paragraph 1, b. "a" of the GDPR, as well as in the &lt;a href="/Home/CookiePolicy"&gt;Cookie Policy.&lt;/a&gt;&lt;br&gt;In the event that you wish to withdraw your consent to processing, you may do so in writing one to the above email or follow the active link or see the &lt;a href="/Home/CookiePolicy"&gt;Cookie Policy.&lt;/a&gt;&lt;/p&gt;
+
+
+
+&lt;h2&gt;Signal of irregularities and complaints&lt;/h2&gt;
+
+
+
+&lt;p&gt;If you believe that we have violated your rights in relation to your personal data, and that there is a risk of breaching the security of your personal data, you can report it to the following contacts:&lt;br&gt;phone: &lt;a href=" tel:0887 765 785"&gt;0887 765 785&lt;/a&gt;&lt;br&gt;e-mail: &lt;a href="mailto:office@megagraphics.eu"&gt;office@megagraphics.eu&lt;/a&gt;&lt;br&gt;The exercise of the above rights does not deprive you of the right to appeal. You can submit one to the supervisory authority of Bulgaria - the Commission for the Protection of Personal Data. More information can be found at: &lt;a rel="noopener" href="http://cpdp.bg" target="_blank"&gt;www.cpdp.bg.&lt;/a&gt;</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Privacy policy</value>
+  </data>
+</root>

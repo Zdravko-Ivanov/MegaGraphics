@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Context" xml:space="preserve">
+    <value>&lt;h2&gt;What are PVC stickers?&lt;/h2&gt;
+
+
+
+&lt;p&gt;Stickers made of high-quality self-adhesive film. They consist of two or three layers: – Bearing base. – Sticker made of high quality PVC self-adhesive film. – Transparent transport film (in some cases, but not always). The self-adhesive PVC foils are factory equipped with the supporting base, which serves to store the foil and as a support when cutting the foil. The transfer film serves to successfully transfer the sticker from the carrier base to the surface on which you will stick the sticker, preserving the positions of all elements of the image.&lt;/p&gt;
+
+
+
+&lt;h2&gt;How to apply shipping foil stickers?&lt;/h2&gt;
+
+
+
+&lt;p&gt;Carefully separate the shipping film (if any) together with the sticker from the carrier base so that the entire sticker image remains on the shipping film. Press well with a spatula (plastic card or squeegee) and carefully remove the transport film so that the entire sticker remains in the place you want. Peel off the shipping film slowly, at a sharp angle, starting from one corner. For uneven surfaces, it is recommended to heat the sticker with a hot air gun or a regular hair dryer and press again. Correct application of the stickers is essential for their durability. The preparation of the surface before sticking, the presence of a suitable temperature environment, the correct application technique and operation are factors that determine the quality of the final result.&lt;/p&gt;
+
+
+
+&lt;h2&gt;Can the sticker be peeled off over time without leaving marks on the surface it is stuck on?&lt;/h2&gt;
+
+
+
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Option 1&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;
+
+
+
+&lt;p&gt;From a distance of about 15-20 cm, with a hair dryer or a hot air gun, heat the surface of the sticker. Try to move the device along the entire length of the patch. The goal is to achieve uniform heating of the entire surface. In this way, the glue is softened and removal is much easier. If you are using a hot air gun or a very powerful hair dryer, be careful not to get too close to the bumper, as high pressure can damage the paint finish. For a 30/30 cm sticker up to 5 minutes of heating should be enough. If possible, coat the edges of the sticker with WD-40 or a detergent such as 3M Citrus Cleaner and wait a few minutes.&lt;/p&gt;
+
+
+
+&lt;p&gt;Again, carefully use your hand, spatula or other thin tool to separate one end of the sticker. If you are using a razor blade, be extremely careful, if you press more it is possible to damage the surface of the car. Begin to slowly pull the sticker with one hand while continuing to heat under the peeled surface with the other.&lt;/p&gt;
+
+
+
+&lt;p&gt;After completely removing all unwanted stickers from the car, it is possible that if the stickers have been left for a long time, traces of glue may remain. Any residue should be thoroughly cleaned with WD-40 spray. Another option is to use an adhesive remover such as 3M Citrus Cleaner. Using rubbing alcohol also helps remove unwanted sticker marks. And finally, if you don't have any of the above or don't want to use it, you can try the good old way with warm water and liquid soap dissolved in it.&lt;/p&gt;
+
+
+
+&lt;p&gt;After removing all traces of glue left behind the sticker, it is a good idea to polish the place where the sticker was. Caution, in order not to damage the surface when cleaning, always use a microfiber cloth, a soft sponge and never wires or anything hard enough to damage the paint.&lt;/p&gt;
+
+
+
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Option 2&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;
+
+
+
+&lt;p&gt;Dissolve some liquid soap in a bucket of warm water. Dip a soft cloth or foam sponge into the liquid and begin rubbing the sticker over its entire surface. Using a spatula, separate some edge of the sticker and start slowly pulling. Once the patch is removed, continue scrubbing until the adhesive residue is completely removed. To clean it, you can help yourself by soaking the cloth with alcohol.&lt;/p&gt;</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Questions &amp; Answers</value>
+  </data>
+</root>

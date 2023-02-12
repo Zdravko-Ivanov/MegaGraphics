@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Context" xml:space="preserve">
+    <value>&lt;h2&gt;Какво представляват PVC стикерите?&lt;/h2&gt;
+
+
+
+&lt;p&gt;Стикери изработени от висококачествено самозалепващо се фолио. Те се състоят от два или три слоя: – Носеща основа. – Стикер, изработен от висококачествено PVC самозалепващо се фолио. – Прозрачно транспортно фолио (в някои от случаите, но не винаги). Самозалепващите PVC фолиа фабрично са снабдени с носещата основа, служеща за съхранение на фолиото и като подложка при изрязването на фолиата. Транспортното фолио служи за това, да пренесете успешно стикера от носещата основа, върху повърхността на която ще лепите стикера, като се запазват позициите на всички елементи от изображението.&lt;/p&gt;
+
+
+
+&lt;h2&gt;Как се поставят стикери с транспортно фолио?&lt;/h2&gt;
+
+
+
+&lt;p&gt;Внимателно отделете транспортното фолио (ако има такова) заедно със стикера от носещата основа, така че изображението на стикера изцяло да остане върху транспортното фолио. Натиска се добре с шпатула (пластмасова карта или ракел) и внимателно се отстранява транспортното фолио, така че целият стикер да остане на желаното от Вас място. Отстранявайте транспортното фолио бавно, под остър ъгъл, като започнете от единия ъгъл. При неравни повърхности е препоръчително стикерът да се нагрее със пистолет за горещ въздух или с обикновен сешоар и да се притисне повторно. Правилното апликиране на стикерите е от съществено значение за тяхната дълготрайност. Подготовката на повърхността преди облепяне, наличието на подходяща температурна среда, правилната техника на апликиране и експлоатация са фактори, определящи качеството на крайния резултат.&lt;/p&gt;
+
+
+
+&lt;h2&gt;Може ли стикерът да се отлепи след време, без да остави следи по повърхността, на която е залепен?&lt;/h2&gt;
+
+
+
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Вариант 1&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;
+
+
+
+&lt;p&gt;От разстояние около 15-20 см, със сешоар или с пистолет за горещ въздух нагрейте повърхността на стикера.  Старайте се да движите уреда по цялата дължина на лепенката. Целта е да се постигне равномерно нагряване на цялата повърхност. По-този начин лепилото се размеква и свалянето е значително по лесно. Ако използвате пистолет на горещ въздух или много мощен сешоар внимавайте да не доближавате особено близко бронята, защото на висока степен могат да наранят покритието от боя. За стикер с големина 30/30 см до 5 мин. нагряване би трябвало да са достатъчни. По възможност намажете краищата на стикера с WD-40 или препарат от вида на 3M Citrus Cleaner и изчакайте няколко минути.&lt;/p&gt;
+
+
+
+&lt;p&gt;Отново внимателно с ръка, шпатула или друг тънък уред отделете единия край на стикера. Ако използвате бръснарско ножче бъдете изключително внимателни, ако натиснете повече е възможно да нараните повърхността  на автомобила. Започнете да придърпвате бавно с едната ръка стикера, докато с другата продължавате да загрявате под отлепената повърхност.&lt;/p&gt;
+
+
+
+&lt;p&gt;След пълното премахване на всички нежелани стикери от колата е възможно, ако стикерите са престояли дълго време, да са останали следи от лепило. Всичко остатъци би трябвало да бъдат изчистени напълно със спрей WD-40.  Друг вариант е използването на препарат за премахване на лепило от типа на 3M Citrus Cleaner . Използването на спирт също помага за премахването на нежелани следи от стикер. И на последно място, ако нямаш нищо от горепосоченото или не желаеш да ползваш, може да изпробваш добрия стар начин с топла вода и разтворен в нея течен сапун.&lt;/p&gt;
+
+
+
+&lt;p&gt;След премахването на всички следи от лепило останали след стикера е добра идея ,мястото, където е била лепенката да се полира. Внимание, за да не нараниш повърхността при почистването винаги ползвай микрофибърна кърпа, мека гъба и никога телчета или нещо достатъчно твърдо, че да повреди боята.&lt;/p&gt;
+
+
+
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;Вариант 2&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;
+
+
+
+&lt;p&gt;В кофа с топла вода разтворете малко течен сапун. Потопете мека кърпа или дунапренова гъба в течността и започнете да търкате стикера по цялата му повърхност. С помощта на шпатула отделете някой ръб на стикера и започнете бавно да дърпате. След като лепенката е премахната, продължете с търкането до пълното премахване на остатъците от лепило. За изчистването му може да си помогнете, като напоите кърпата със спирт.&lt;/p&gt;</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Често задавани въпроси</value>
+  </data>
+</root>

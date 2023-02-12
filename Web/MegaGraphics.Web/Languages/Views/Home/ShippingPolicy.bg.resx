@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Context" xml:space="preserve">
+    <value>&lt;h2&gt;Политика за доставка&lt;/h2&gt;
+
+
+
+&lt;p&gt;Изпращаме поръчките си чрез услугите на &lt;strong&gt;Еконт Експрес &lt;/strong&gt;и&lt;strong&gt; Спиди&lt;/strong&gt;.&lt;/p&gt;
+
+
+
+&lt;p&gt;Поръчките се изпращат в срок от&lt;strong&gt; 1 до 5 работни дни&lt;/strong&gt;, освен ако поръчката не се нуждае от допълнителни уточнения от страна на клиента.&lt;/p&gt;
+
+
+
+&lt;p&gt;За продукти, които не могат да бъдат доставени в рамките на този период, ние ще се свържем с Вас по имейл или телефон.&lt;/p&gt;
+
+
+
+&lt;p&gt;Доставката „до офис“ предлагана от &lt;strong&gt;Еконт&lt;/strong&gt; и&lt;strong&gt; Спиди&lt;/strong&gt;, отнема един работен ден.&amp;nbsp;&lt;/p&gt;
+
+
+
+&lt;h2&gt;Цена на доставка&lt;/h2&gt;
+
+
+
+&lt;p&gt;Когато доставката е за сметка на клиента цената е съгласно обявените такси на куриера, ако клиентът желае да се добавят други услуги, освен основните куриерски такси, те са за негова сметка.&lt;/p&gt;
+
+
+
+&lt;h2&gt;Безплатна доставка&lt;/h2&gt;
+
+
+
+&lt;ul&gt;&lt;li&gt;Всички поръчки на стойност над 50&amp;nbsp;лв. &amp;nbsp;се доставят безплатно до клиента за сметка на&amp;nbsp;„Мега Графикс“ ЕООД.&lt;/li&gt;&lt;li&gt;Безплатната доставка се извършва &amp;nbsp;до поискване в офисите на куриерска фирма.&lt;/li&gt;&lt;/ul&gt;
+
+
+
+&lt;h2&gt;Провека на пратката&lt;/h2&gt;
+
+
+
+&lt;p&gt;Всички пратки имат възможност да бъдат отворени за преглед преди плащане на куриера.&lt;/p&gt;
+
+
+
+&lt;h2&gt;Начин на плащане&lt;/h2&gt;
+
+
+
+&lt;ul&gt;&lt;li&gt;С наложен платеж при получаване на пратката.&lt;/li&gt;&lt;li&gt;Авансово плащане с банков превод по фактура, издадена предварително.&lt;/li&gt;&lt;li&gt;Плащане в брой не се приема.&lt;/li&gt;&lt;/ul&gt;
+
+
+
+&lt;div class="is-layout-flex wp-container-7 wp-block-columns"&gt;
+&lt;div class="is-layout-flow wp-block-column" style="flex-basis:100%"&gt;
+&lt;div class="is-layout-flex wp-container-5 wp-block-columns"&gt;
+&lt;div class="is-layout-flow wp-block-column" style="flex-basis:100%"&gt;
+&lt;div class="is-layout-flow wp-block-group"&gt;&lt;div class="wp-block-group__inner-container"&gt;
+&lt;div class="is-layout-flex wp-container-2 wp-block-columns"&gt;
+&lt;div class="is-layout-flow wp-block-column" style="flex-basis:100%"&gt;
+&lt;p&gt;&lt;em&gt;При наличие на допълнителни въпроси от Ваша страна относно условията на доставка или нещо друго, пишете ни на: &lt;a href="mailto:office@megagraphics.eu"&gt;office@megagraphics.eu&lt;/a&gt; или се обадете на: &lt;a href="tel:0887765785"&gt;0887 765 785&lt;/a&gt; &lt;/em&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Политика за доставка</value>
+  </data>
+</root>

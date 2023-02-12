@@ -1,0 +1,54 @@
+﻿<footer class="text-center text-lg-start bg-light text-muted">
+
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <div class="row mt-3">
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <h6 class="fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>@localizer["Tags"]</h6>
+          <p>
+                TODO: Implement tags
+          </p>
+        </div>
+
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="fw-bold mb-4">@localizer["Contact"]</h6>
+            <p>
+                TODO: Implement contact form + button
+            </p>
+        </div>
+
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="fw-bold mb-4">
+            About us:
+          </h6>
+          <p>
+              TODO: IMG
+          </p>
+        </div>
+
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <h6 class="fw-bold mb-4">@localizer["Navigation"]</h6>
+            <p>
+                <a asp-area="" asp-controller="Home" asp-action="Index">@localizer["Home"]</a><br/>
+                <a asp-area="" asp-controller="Home" asp-action="About">@localizer["About"]</a><br/>
+                <a asp-area="" asp-controller="Home" asp-action="About">@localizer["MyProfile"]</a><br/>
+                <a asp-area="" asp-controller="Home" asp-action="About">@localizer["Cart"]</a><br/>
+                <a asp-area="" asp-controller="Home" asp-action="About">@localizer["Order"]</a><br/>
+                <a asp-area="" asp-controller="Home" asp-action="QuestionsAnswers">@localizer["QuestionsAnswers"]</a><br/>
+                <a asp-area="" asp-controller="Home" asp-action="ShippingPolicy">@localizer["Shipping"]</a><br/>
+                <a asp-area="" asp-controller="Home" asp-action="CookiePolicy">@localizer["Cookie"]</a><br/>
+                <a asp-area="" asp-controller="Home" asp-action="PrivacyPolicy">@localizer["Privacy"]</a>
+            </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    &copy; @DateTime.Now.Year Copyright:
+    <a class="text-reset fw-bold" asp-area="" asp-controller="Home" asp-action="Index">@localizer["Name"]</a>
+  </div>
+
+</footer>

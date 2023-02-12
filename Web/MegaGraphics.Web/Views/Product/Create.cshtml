@@ -1,0 +1,25 @@
+﻿@model MegaGraphics.Web.ViewModels.Home.CreateProductInputModel
+
+<h1> Create product</h1>
+
+    <form method="post">
+        <label>Name</label>
+        <input asp-for="Name" /><br />
+        <label>Category</label>
+
+    <label for="cars">Choose a car:</label>
+
+    
+        <label>Tags:</label>
+        <input asp-asp-for="Tags" /><br />
+        <label>Size</label><br />
+        M  :<input type="checkbox" id="2" value="M" />             <label>Price</label> <input asp-for="PriceMedium" /><br />
+        L  :<input type="checkbox" id="3" value="L" />            <label>PriceMedium</label> <input asp-for="PriceLarge" /> <br />
+        S  :<input type="checkbox" id="1" value="S" />       <label>PriceLarge</label> <input asp-for="Price" />      <br />
+        <label>Colors</label> with ticks
+        <h2>Main pic</h2>
+        <h3>pics</h3>
+        <textarea>Description</textarea>
+    </form>
+
+    
