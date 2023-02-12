@@ -30,7 +30,10 @@
 
         public DbSet<Category> Categories { get; set; }
 
+        public DbSet<ProductVariant> ProductsVariants { get; set; }
+
         public DbSet<Tag> Tags { get; set; }
+
 
         public override int SaveChanges() => this.SaveChanges(true);
 
@@ -78,7 +81,11 @@
             {
                 foreignKey.DeleteBehavior = DeleteBehavior.Restrict;
             }
-        }
+
+            builder.Entity<ProductVariant>()
+                  .HasKey(pv => new { pv.Id, pv.ProductId });
+
+    }
 
         private static void SetIsDeletedQueryFilter<T>(ModelBuilder builder)
             where T : class, IDeletableEntity

@@ -241,12 +241,6 @@ namespace MegaGraphics.Data.Migrations
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<decimal>("Price")
-                        .HasColumnType("decimal(18,2)");
-
-                    b.Property<int>("Size")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
 
                     b.HasIndex("CategoryId");
@@ -254,6 +248,27 @@ namespace MegaGraphics.Data.Migrations
                     b.HasIndex("IsDeleted");
 
                     b.ToTable("Products");
+                });
+
+            modelBuilder.Entity("MegaGraphics.Data.Models.ProductVariant", b =>
+                {
+                    b.Property<int>("Id")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("Size")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id", "ProductId");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("ProductsVariants");
                 });
 
             modelBuilder.Entity("MegaGraphics.Data.Models.Tag", b =>
@@ -436,6 +451,17 @@ namespace MegaGraphics.Data.Migrations
                         .IsRequired();
 
                     b.Navigation("Category");
+                });
+
+            modelBuilder.Entity("MegaGraphics.Data.Models.ProductVariant", b =>
+                {
+                    b.HasOne("MegaGraphics.Data.Models.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Product");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
