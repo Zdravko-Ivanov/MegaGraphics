@@ -18,4 +18,14 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Data\MegaGraphics.Data.Common\MegaGraphics.Data.Common.csproj" />
+    <ProjectReference Include="..\..\Data\MegaGraphics.Data.Models\MegaGraphics.Data.Models.csproj" />
+    <ProjectReference Include="..\..\Data\MegaGraphics.Data\MegaGraphics.Data.csproj" />
+    <ProjectReference Include="..\..\MegaGraphics.Common\MegaGraphics.Common.csproj" />
+    <ProjectReference Include="..\..\Tests\MegaGraphics.Services.Data.Tests\MegaGraphics.Services.Data.Tests.csproj" />
+    <ProjectReference Include="..\..\Web\MegaGraphics.Web.ViewModels\MegaGraphics.Web.ViewModels.csproj" />
+    <ProjectReference Include="..\MegaGraphics.Services.Data\MegaGraphics.Services.Data.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,0 +1,27 @@
+﻿@model MegaGraphics.Web.ViewModels.Product.TagViewModel
+@{
+    ViewData["Title"] = "Tag";
+}
+
+<div class="col-md-4">
+    <div class="justify-content-center">
+
+
+        <h2 class="justify-content-center">Етикет на продукта</h2>
+        <ul class="list-inline">
+            @foreach (var tag in Model.Tags)
+            {<li class="list-inline-item">
+                <form asp-controller="Product" asp-action="TagDelete" method="post">
+                    <input type="hidden" asp-for="Name" value="@tag.Name" />
+                        @tag.Name<input type="submit" value="x" class="btn btn-danger" />
+                    </form>
+                </li>
+            }
+        </ul>
+        <form method="post">
+            <input asp-for="Name" class="form-control" /><br />
+            <input type="submit" class="btn btn-success" value="Add Tag" />
+            <span asp-validation-for="Name"></span>
+        </form>
+    </div>
+</div>

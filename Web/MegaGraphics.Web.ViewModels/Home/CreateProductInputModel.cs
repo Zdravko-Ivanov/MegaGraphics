@@ -1,17 +1,23 @@
 ﻿namespace MegaGraphics.Web.ViewModels.Home
 {
-    public class CreateProductInputModel
+    using System.Collections.Generic;
+    using System.ComponentModel.DataAnnotations;
+
+    using MegaGraphics.Data.Models;
+    using MegaGraphics.Services.Mapping;
+
+    public class CreateProductInputModel : IMapFrom<Tag>
     {
-        public string Name { get; set; }
+        public CreateProductInputModel()
+        {
+            this.Tags = new HashSet<Tag>();
+        }
 
-        public string NameEnglish { get; set; }
+        [MinLength(3)]
+        public string TagName { get; set; }
 
-        public string Description { get; set; }
+        public Tag Tag { get; set; }
 
-        public string DescriptionEnglish { get; set; }
-
-        public int Category { get; set; }
-
-        public int CategoryEngnlish { get; set; }
+        public ICollection<Tag> Tags { get; set; }
     }
 }

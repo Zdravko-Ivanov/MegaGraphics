@@ -21,6 +21,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Data\MegaGraphics.Data.Common\MegaGraphics.Data.Common.csproj" />
     <ProjectReference Include="..\..\Data\MegaGraphics.Data.Models\MegaGraphics.Data.Models.csproj" />
+    <ProjectReference Include="..\..\Web\MegaGraphics.Web.ViewModels\MegaGraphics.Web.ViewModels.csproj" />
     <ProjectReference Include="..\MegaGraphics.Services.Mapping\MegaGraphics.Services.Mapping.csproj" />
   </ItemGroup>
 

@@ -1,7 +1,7 @@
 ﻿namespace MegaGraphics.Data.Common.Repositories
 {
     using System.Linq;
-
+    using System.Threading.Tasks;
     using MegaGraphics.Data.Common.Models;
 
     public interface IDeletableEntityRepository<TEntity> : IRepository<TEntity>

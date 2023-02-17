@@ -10,6 +10,8 @@
     using MegaGraphics.Data.Models;
     using MegaGraphics.Data.Repositories;
     using MegaGraphics.Data.Seeding;
+    using MegaGraphics.Services;
+    using MegaGraphics.Services.Data;
     using MegaGraphics.Services.Mapping;
     using MegaGraphics.Services.Messaging;
     using MegaGraphics.Web.ViewModels;
@@ -85,6 +87,9 @@
 
             // Application services
             services.AddTransient<IEmailSender, NullMessageSender>();
+
+            services.AddTransient<ITagService, TagService>();
+            services.AddTransient<ICategoryService, CategoryService>();
         }
 
         private static void Configure(WebApplication app)

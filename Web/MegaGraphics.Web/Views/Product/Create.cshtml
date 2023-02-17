@@ -1,60 +1,1 @@
-﻿@model MegaGraphics.Web.ViewModels.Home.CreateProductInputModel
-
-<form method="post">
-
-    <div class="row">
-
-        <div class="col-md-6">
-            <h1>Napravi</h1>
-            <label>Име</label>
-            <input asp-for="Name" /><br />
-
-            Описание <br />
-            <textarea asp-for="Description"></textarea> <br />     
-        </div>
-
-        <div class="col-md-6">
-            <h1>Create product</h1>
-            <label>Name</label>
-            <input asp-for="NameEnglish" /><br />
-
-            Description <br />
-            <textarea asp-for="DescriptionEnglish"></textarea> <br />
-        </div>
-
-        <div class="col-md-4">
-            <div class="justify-content-center">
-                <h2 class="justify-content-center">Категория на продукта</h2>
-
-
-                TODO: Categoies with JS; <br />
-            </div>
-        </div>
-
-        <div class="col-md-4">
-            <div class="justify-content-center">
-                <h2 class="justify-content-center">Етикет на продукта</h2>
-
-
-                TODO: Tags with JS; <br />
-            </div>
-        </div>
-
-        <div class="col-md-4">
-            <div class="justify-content-center">
-                <h2 class="justify-content-center">razmer/cena/razmer/</h2>
-
-
-                Dimensions: <br />
-                Price: <br />
-            </div>
-        </div>
-
-        <div class="col-md-12">
-            <div class="justify-content-center">
-                Images <br />
-            </div>
-        </div>
-    </div>
-</form>
-
+﻿@model MegaGraphics.Web.ViewModels.Home.CreateProductInputModel  <form method="post">      <div class="row">  @*        <div class="col-md-6">             <h1>Napravi</h1>             <label>Име</label>             <input asp-for="Name" class="form-control"/><br />              Описание <br />             <textarea asp-for="Description" class="form-control"></textarea> <br />         </div>          <div class="col-md-6">             <h1>Create product</h1>             <label>Name</label>             <input asp-for="NameEnglish" class="form-control" /><br />              Description <br />             <textarea asp-for="DescriptionEnglish" class="form-control"></textarea> <br />         </div>*@          <div class="col-md-4">             <div class="justify-content-center">                 <h2 class="justify-content-center">Категория на продукта</h2>                   TODO: Categoies with JS; <br />             </div>         </div>          <div class="col-md-4">                 </div>         </div>          <div class="col-md-4">             <div class="justify-content-center">                 <h2 class="justify-content-center">razmer/cena/razmer/</h2>                   Dimensions: <br />                 Price: <br />             </div>         </div>          <div class="col-md-12">             <div class="justify-content-center">                 Images <br />             </div>         </div>   </form>  <script>     function GetItemName(name)     {      //var myparam = "abc";       // add hidden field to your form name="myparam" and value="abc"       formData.append('<input type="hidden" name="ko" value="'+name+'" />');       this.form.submit();       } </script> 
